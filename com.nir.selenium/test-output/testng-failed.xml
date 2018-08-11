@@ -3,13 +3,13 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.nir.selenium.Chapter4">
+      <class name="com.nir.selenium.popups">
         <methods>
+          <include name="demonstrateModal"/>
           <include name="setUp"/>
-          <include name="examineStyle"/>
           <include name="tear"/>
         </methods>
-      </class> <!-- com.nir.selenium.Chapter4 -->
+      </class> <!-- com.nir.selenium.popups -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
